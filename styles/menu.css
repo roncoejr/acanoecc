@@ -1,0 +1,107 @@
+#appMenu {
+    height: 43px;
+    width: 685px;
+    padding: 0px 20px 0px 20px;
+    list-style: none;
+    margin: 30px auto 0px auto;
+    -webkit-border-radius: 10px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#000000), to(#000022));
+    -webkit-box-shadow:inset 0px 0px 1px #edf9ff;
+    border: 1px solid #002232;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+#appMenu li {
+    float:left;
+    display:block;
+    text-align:center;
+    position:relative;
+    padding: 4px 10px 4px 10px;
+    margin-right:30px;
+    margin-top:7px;
+    border:none;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F4F4F4), to(#EEEEEE));
+
+}
+
+
+#appMenu li:hover {
+    border: 1px solid #777777;
+    padding: 4px 9px 4px 9px;
+    
+    /* Background color and gradients */
+    
+    background: #F4F4F4;
+    background: -moz-linear-gradient(top, #F4F4F4, #EEEEEE);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F4F4F4), to(#EEEEEE));
+    
+    /* Rounded corners */
+    
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+#appMenu li a {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color: #EEEEEE;
+    display:block;
+    outline:0;
+    text-decoration:none;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+
+#appMenu li:hover a {
+    color:#161616;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+
+
+
+.dropdown_cospaces,
+.dropdown_ivrs,
+.dropdown_calllegs,
+.dropdown_webbridges,
+.dropdown_turnservers {
+    margin:4px auto;
+    position:absolute;
+    left:-999em; /* Hides the drop down */
+    text-align:left;
+    padding:10px 5px 10px 5px;
+    border:1px solid #777777;
+    border-top:none;
+    
+    /* Gradient background */
+    background:#F4F4F4;
+    background: -moz-linear-gradient(top, #EEEEEE, #BBBBBB);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EEEEEE), to(#BBBBBB));
+    
+    /* Rounded Corners */
+    -moz-border-radius: 0px 5px 5px 5px;
+    -webkit-border-radius: 0px 5px 5px 5px;
+    border-radius: 0px 5px 5px 5px;
+    width: 280px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+#appMenu li:hover .dropdown_cospaces,
+#appMenu li:hover .dropdown_ivrs,
+#appMenu li:hover .dropdown_calllegs,
+#appMenu li:hover .dropdown_webbridges,
+#appMenu li:hover .dropdown_turnservers {
+    left: -1px; top: auto;
+}
+
+
+
+
+

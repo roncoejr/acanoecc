@@ -1,0 +1,47 @@
+
+HTML.mainMenu, BODY.mainMenu {height: 100%; overflow: auto; }
+
+BODY.mainMenu {position: fixed !important; }
+
+FORM.newEntityForm TABLE {font-family:Arial; font-size:26; font-weight:normal; }
+FORM.newEntityForm TD {font-weight:bold; font-size:12; }
+FORM.newEntityForm IMG {width:125; height:75; }
+FORM.newEntityForm LABEL {visibility:hidden; width:25; height:1; display:block; color:red; }
+
+DIV.getBox {visibility:visible; }
+
+DIV.newEntityForm { float:left; width:50%; z-index:50; top:655px; margin-top:55px; }
+DIV.statusResults { float:left; width:25%; visibility:hidden; z-index:50; margin-top:95px; }
+
+
+TABLE {font-family:Arial; font-size:26; font-weight:normal; }
+TABLE.getBox {font-family:Arial; font-size:10; font-weight:normal; }
+
+
+IMG.btnInput {width: 125; height: 75; }
+IMG.actionButton {width: 55; height: 35; }
+
+
+INPUT.afterAction {visibility:hidden; }
+
+DIV.mainMenu {position: fixed; height: 50px; width: 100%; z-index: 50; left: 0px; top: 0px; bottom: 0; background-color: black; }
+DIV.mainMenu TABLE {background-color: black; color: grey; }
+
+DIV.menuOptions {position: fixed; height: 50px; width: 100%; z-index: 50; left: 0px; top: 0px; bottom: 0; background-color: black; visibility: hidden; }
+
+DIV.menuOptions {background-color: black; color: grey; visibility: hidden; font-family: Arial; }
+
+DIV.menuOptions#coSpaces {top: 52px; left: 470px; width: 150px; height: 125px; visibility: hidden; z-index: 100; color: white; }
+
+DIV.menuOptions#IVRs {top: 52px; left: 602px; width: 150px; height: 42.5px; visibility: hidden; z-index: 100; color: white; }
+DIV.menuOptions#CallLegs {top: 52px; left: 695px; width: 150px; height: 42.5px; visibility: hidden; z-index: 100; color: white; }
+DIV.menuOptions#WebBridges {top: 52px; left: 820px; width: 150px; height: 92; visibility: hidden; z-index: 100; color: white; }
+DIV.menuOptions#TurnServers {top: 52px; left: 970px; width: 150px; height: 42.5px; visibility: hidden; z-index: 100; color: white; }
+DIV.vidContainer {
+    position: relative;
+    overflow: hidden;
+    alignment-baseline: center;
+    z-index: -101;
+    top: 88;
+    left: 170;
+}

@@ -6,10 +6,71 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		E47B0C3B1E5A19D700D904EE /* apidelete */ = {isa = PBXFileReference; lastKnownFileType = folder; path = apidelete; sourceTree = "<group>"; };
+		E47B0C3C1E5A19D700D904EE /* apiget */ = {isa = PBXFileReference; lastKnownFileType = folder; path = apiget; sourceTree = "<group>"; };
+		E47B0C3D1E5A19D700D904EE /* apipost */ = {isa = PBXFileReference; lastKnownFileType = folder; path = apipost; sourceTree = "<group>"; };
+		E47B0C3E1E5A19D700D904EE /* callbrandingprofile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = callbrandingprofile; sourceTree = "<group>"; };
+		E47B0C3F1E5A19D700D904EE /* calllegprofile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = calllegprofile; sourceTree = "<group>"; };
+		E47B0C401E5A19D700D904EE /* calllegs.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = calllegs.php; sourceTree = "<group>"; };
+		E47B0C411E5A19D700D904EE /* classroom.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = classroom.php; sourceTree = "<group>"; };
+		E47B0C421E5A19D700D904EE /* cospaces.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = cospaces.php; sourceTree = "<group>"; };
+		E47B0C431E5A19D700D904EE /* delete-webbridges */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "delete-webbridges"; sourceTree = "<group>"; };
+		E47B0C441E5A19D700D904EE /* examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = examples; sourceTree = "<group>"; };
+		E47B0C451E5A19D700D904EE /* get-callbrandingprofiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "get-callbrandingprofiles"; sourceTree = "<group>"; };
+		E47B0C461E5A19D700D904EE /* get-calllegprofiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "get-calllegprofiles"; sourceTree = "<group>"; };
+		E47B0C471E5A19D700D904EE /* get-cospaces */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "get-cospaces"; sourceTree = "<group>"; };
+		E47B0C481E5A19D700D904EE /* get-ivrbrandingprofiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "get-ivrbrandingprofiles"; sourceTree = "<group>"; };
+		E47B0C491E5A19D700D904EE /* get-webbridges */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "get-webbridges"; sourceTree = "<group>"; };
+		E47B0C4A1E5A19D700D904EE /* home.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = home.php; sourceTree = "<group>"; };
+		E47B0C4B1E5A19D700D904EE /* index.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		E47B0C4C1E5A19D700D904EE /* ivrbrandingprofile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ivrbrandingprofile; sourceTree = "<group>"; };
+		E47B0C4D1E5A19D700D904EE /* ivrs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ivrs; sourceTree = "<group>"; };
+		E47B0C4E1E5A19D700D904EE /* ivrsmenu.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = ivrsmenu.php; sourceTree = "<group>"; };
+		E47B0C4F1E5A19D700D904EE /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		E47B0C501E5A19D700D904EE /* media */ = {isa = PBXFileReference; lastKnownFileType = folder; path = media; sourceTree = "<group>"; };
+		E47B0C511E5A19D700D904EE /* menu.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = menu.php; sourceTree = "<group>"; };
+		E47B0C521E5A19D700D904EE /* menuItems.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = menuItems.php; sourceTree = "<group>"; };
+		E47B0C531E5A19D700D904EE /* styles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = styles; sourceTree = "<group>"; };
+		E47B0C541E5A19D700D904EE /* turnservers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = turnservers; sourceTree = "<group>"; };
+		E47B0C551E5A19D700D904EE /* turnservers.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = turnservers.php; sourceTree = "<group>"; };
+		E47B0C561E5A19D700D904EE /* webbridge */ = {isa = PBXFileReference; lastKnownFileType = folder; path = webbridge; sourceTree = "<group>"; };
+		E47B0C571E5A19D700D904EE /* webbridges.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = webbridges.php; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		E47B0C341E5A19A100D904EE = {
 			isa = PBXGroup;
 			children = (
+				E47B0C3B1E5A19D700D904EE /* apidelete */,
+				E47B0C3C1E5A19D700D904EE /* apiget */,
+				E47B0C3D1E5A19D700D904EE /* apipost */,
+				E47B0C3E1E5A19D700D904EE /* callbrandingprofile */,
+				E47B0C3F1E5A19D700D904EE /* calllegprofile */,
+				E47B0C401E5A19D700D904EE /* calllegs.php */,
+				E47B0C411E5A19D700D904EE /* classroom.php */,
+				E47B0C421E5A19D700D904EE /* cospaces.php */,
+				E47B0C431E5A19D700D904EE /* delete-webbridges */,
+				E47B0C441E5A19D700D904EE /* examples */,
+				E47B0C451E5A19D700D904EE /* get-callbrandingprofiles */,
+				E47B0C461E5A19D700D904EE /* get-calllegprofiles */,
+				E47B0C471E5A19D700D904EE /* get-cospaces */,
+				E47B0C481E5A19D700D904EE /* get-ivrbrandingprofiles */,
+				E47B0C491E5A19D700D904EE /* get-webbridges */,
+				E47B0C4A1E5A19D700D904EE /* home.php */,
+				E47B0C4B1E5A19D700D904EE /* index.php */,
+				E47B0C4C1E5A19D700D904EE /* ivrbrandingprofile */,
+				E47B0C4D1E5A19D700D904EE /* ivrs */,
+				E47B0C4E1E5A19D700D904EE /* ivrsmenu.php */,
+				E47B0C4F1E5A19D700D904EE /* js */,
+				E47B0C501E5A19D700D904EE /* media */,
+				E47B0C511E5A19D700D904EE /* menu.php */,
+				E47B0C521E5A19D700D904EE /* menuItems.php */,
+				E47B0C531E5A19D700D904EE /* styles */,
+				E47B0C541E5A19D700D904EE /* turnservers */,
+				E47B0C551E5A19D700D904EE /* turnservers.php */,
+				E47B0C561E5A19D700D904EE /* webbridge */,
+				E47B0C571E5A19D700D904EE /* webbridges.php */,
 			);
 			sourceTree = "<group>";
 		};

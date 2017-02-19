@@ -1,0 +1,8 @@
+
+Options +includes
+
+php_value	db_name	myDatabase
+
+<Files "[tT][eE][sS][tT]\.[iI][nN][iI]">
+Order	allow,deny
+</Files>
