@@ -2,6 +2,7 @@
 HTML.mainMenu, BODY.mainMenu {height: 100%; overflow: auto; }
 
 BODY.mainMenu {position: fixed !important; }
+BODY.subMenu {position: fixed; }
 
 FORM.newEntityForm TABLE {font-family:Arial; font-size:26; font-weight:normal; }
 FORM.newEntityForm TD {font-weight:bold; font-size:12; }
